@@ -64,6 +64,54 @@
       "homepage": "https://taocode.io",
       "version": "0.1.1",
       "origin": { "type": "local", "path": "./plugins/dev-discipline" }
+    },
+    {
+      "id": "frontend-design",
+      "label": "Frontend Design",
+      "summary": "Build UI that looks intentional, not templated — visual hierarchy, type scale, spacing, color, and component states.",
+      "category": "frontend",
+      "tags": ["ui", "design", "css", "frontend"],
+      "trust": "verified",
+      "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
+      "homepage": "https://taocode.io",
+      "version": "0.1.0",
+      "origin": { "type": "local", "path": "./plugins/frontend-design" }
+    },
+    {
+      "id": "refactoring",
+      "label": "Refactoring",
+      "summary": "Improve code structure without changing behavior — small, test-green, behavior-preserving steps.",
+      "category": "refactoring",
+      "tags": ["refactor", "cleanup", "structure", "maintainability"],
+      "trust": "verified",
+      "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
+      "homepage": "https://taocode.io",
+      "version": "0.1.0",
+      "origin": { "type": "local", "path": "./plugins/refactoring" }
+    },
+    {
+      "id": "api-design",
+      "label": "API Design",
+      "summary": "Design predictable, consistent APIs — resources, naming, status codes, schemas, uniform errors, versioning.",
+      "category": "api",
+      "tags": ["api", "rest", "schema", "design"],
+      "trust": "verified",
+      "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
+      "homepage": "https://taocode.io",
+      "version": "0.1.0",
+      "origin": { "type": "local", "path": "./plugins/api-design" }
+    },
+    {
+      "id": "security-review",
+      "label": "Security Review",
+      "summary": "Check code for common vulnerabilities — injection, authz, secret handling, SSRF/path traversal, least privilege.",
+      "category": "security",
+      "tags": ["security", "review", "owasp", "auth"],
+      "trust": "verified",
+      "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
+      "homepage": "https://taocode.io",
+      "version": "0.1.0",
+      "origin": { "type": "local", "path": "./plugins/security-review" }
     }
   ]
 }
