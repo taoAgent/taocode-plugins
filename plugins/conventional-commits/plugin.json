@@ -1,0 +1,5 @@
+{
+  "provides": {
+    "skills": ["skills/conventional-commits"]
+  }
+}
