@@ -9,4 +9,4 @@ Workflow skills that make the agent build reliably — model-invoked, no setup.
 - **`verify-before-done`** — run the real command and read the output before claiming success.
 - **`plan-before-building`** — sketch a short plan before starting a multi-step task.
 
-Each activates on its own when the task matches — install once and the agent picks the right discipline in context. Pure instructions: no API keys, no dependencies, works with any model.
+Each activates on its own when the task matches, and can also be invoked explicitly as a command (e.g. `/verify-before-done`). Install once and the agent picks the right discipline in context. Pure instructions: no API keys, no dependencies, works with any model.

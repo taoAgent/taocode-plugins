@@ -1,6 +1,7 @@
 ---
 name: verify-before-done
 description: Use before claiming a task is complete, fixed, working, or passing, and before committing. Run the real command and read its output first.
+slash: true
 ---
 
 # Verify Before Done

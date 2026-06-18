@@ -1,6 +1,7 @@
 ---
 name: test-driven-development
 description: Use when implementing a new feature, function, or bug fix, before writing implementation code. Write a failing test first, then the minimal code to pass it. Triggers on "add", "implement", "build", "fix", "write a function", or any change to behavior that should be tested.
+slash: true
 ---
 
 # Test-Driven Development

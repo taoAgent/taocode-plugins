@@ -1,6 +1,7 @@
 ---
 name: systematic-debugging
 description: Use when a test fails, a bug is reported, an error or stack trace appears, or behavior is unexpected. Find the root cause before changing any code.
+slash: true
 ---
 
 # Systematic Debugging

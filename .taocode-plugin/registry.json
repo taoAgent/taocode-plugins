@@ -62,7 +62,7 @@
       "trust": "verified",
       "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
       "homepage": "https://taocode.io",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "origin": { "type": "local", "path": "./plugins/dev-discipline" }
     }
   ]

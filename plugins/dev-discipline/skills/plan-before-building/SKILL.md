@@ -1,6 +1,7 @@
 ---
 name: plan-before-building
 description: Use when starting a task with more than a couple of steps, before writing code. Sketch a short plan and confirm scope first.
+slash: true
 ---
 
 # Plan Before Building
