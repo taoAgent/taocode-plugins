@@ -1,0 +1,10 @@
+{
+  "provides": {
+    "skills": [
+      "skills/test-driven-development",
+      "skills/systematic-debugging",
+      "skills/verify-before-done",
+      "skills/plan-before-building"
+    ]
+  }
+}

@@ -52,6 +52,18 @@
       "homepage": "https://taocode.io",
       "version": "0.1.0",
       "origin": { "type": "local", "path": "./plugins/conventional-commits" }
+    },
+    {
+      "id": "dev-discipline",
+      "label": "Dev Discipline",
+      "summary": "Workflow skills that make the agent build reliably — test-first, root-cause debugging, verify-before-done, and plan-before-building.",
+      "category": "workflow",
+      "tags": ["tdd", "debugging", "planning", "verification", "workflow"],
+      "trust": "verified",
+      "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
+      "homepage": "https://taocode.io",
+      "version": "0.1.0",
+      "origin": { "type": "local", "path": "./plugins/dev-discipline" }
     }
   ]
 }
