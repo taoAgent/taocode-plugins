@@ -1,0 +1,57 @@
+{
+  "name": "taocode-plugins",
+  "label": "TaoCode Plugins",
+  "description": "Official plugin registry for TaoCode — skills and MCP servers installable from the in-app /plugins.",
+  "maintainer": { "name": "taoAgent", "url": "https://taocode.io" },
+  "updated": "2026-06-18",
+  "plugins": [
+    {
+      "id": "tao-subnet-explorer",
+      "label": "TAO Subnet Explorer",
+      "summary": "Inspect Bittensor subnets from a coding session — metagraph, validators, stake weights, consensus, and emission split. Read-only.",
+      "category": "bittensor",
+      "tags": ["subnet", "metagraph", "read-only"],
+      "trust": "verified",
+      "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
+      "homepage": "https://taocode.io",
+      "version": "0.1.0",
+      "origin": { "type": "local", "path": "./plugins/tao-subnet-explorer" }
+    },
+    {
+      "id": "chutes-gateway-kit",
+      "label": "Chutes Gateway Kit",
+      "summary": "Inspect TAO inference gateways — Chutes (SN64) / Targon (SN4) balance, triage 402 'payment required', and explain hotkey funding.",
+      "category": "inference",
+      "tags": ["chutes", "targon", "gateway", "billing"],
+      "trust": "verified",
+      "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
+      "homepage": "https://taocode.io",
+      "version": "0.1.0",
+      "origin": { "type": "local", "path": "./plugins/chutes-gateway-kit" }
+    },
+    {
+      "id": "tao-wallet-guard",
+      "label": "TAO Wallet Guard",
+      "summary": "Guardrails for Bittensor wallet actions — preview transfers and staking, then require explicit confirmation before any signature.",
+      "category": "wallet",
+      "tags": ["wallet", "staking", "safety"],
+      "trust": "verified",
+      "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
+      "homepage": "https://taocode.io",
+      "version": "0.1.0",
+      "origin": { "type": "local", "path": "./plugins/tao-wallet-guard" }
+    },
+    {
+      "id": "conventional-commits",
+      "label": "Conventional Commits",
+      "summary": "Write clear, consistent commit messages following the Conventional Commits spec.",
+      "category": "git",
+      "tags": ["git", "commits", "workflow"],
+      "trust": "verified",
+      "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
+      "homepage": "https://taocode.io",
+      "version": "0.1.0",
+      "origin": { "type": "local", "path": "./plugins/conventional-commits" }
+    }
+  ]
+}

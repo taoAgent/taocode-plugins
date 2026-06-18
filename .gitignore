@@ -4,3 +4,9 @@ dist/
 .env
 .env.*
 .DS_Store
+
+# secrets — never commit credentials
+*.gpg
+*.pem
+.secrets/
+*token*

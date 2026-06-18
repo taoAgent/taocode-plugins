@@ -1,0 +1,17 @@
+{
+  "$schema": "https://taocode.io/schemas/plugin.schema.json",
+  "id": "tao-wallet-guard",
+  "label": "TAO Wallet Guard",
+  "version": "0.1.0",
+  "summary": "Guardrails for Bittensor wallet actions — preview transfers and staking, then require explicit confirmation before any signature.",
+  "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
+  "license": "MIT",
+  "keywords": ["bittensor", "wallet", "staking", "safety"],
+  "provides": {
+    "skills": ["skills/transfer-preview"]
+  },
+  "permissions": {
+    "network": [],
+    "filesystem": "read"
+  }
+}

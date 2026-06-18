@@ -1,0 +1,17 @@
+{
+  "$schema": "https://taocode.io/schemas/plugin.schema.json",
+  "id": "chutes-gateway-kit",
+  "label": "Chutes Gateway Kit",
+  "version": "0.1.0",
+  "summary": "Inspect TAO inference gateways (Chutes SN64, Targon SN4) and triage funding from TaoCode.",
+  "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
+  "license": "MIT",
+  "keywords": ["chutes", "targon", "gateway", "billing", "tee"],
+  "provides": {
+    "skills": ["skills/gateway-balance"]
+  },
+  "permissions": {
+    "network": ["https://api.chutes.ai", "https://llm.chutes.ai", "https://api.targon.com"],
+    "filesystem": "read"
+  }
+}

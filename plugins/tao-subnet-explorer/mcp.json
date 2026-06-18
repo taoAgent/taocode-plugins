@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "taostats": {
+      "type": "remote",
+      "url": "https://mcp.taostats.io",
+      "headers": {
+        "Authorization": "Bearer ${TAOSTATS_API_KEY}"
+      }
+    }
+  }
+}

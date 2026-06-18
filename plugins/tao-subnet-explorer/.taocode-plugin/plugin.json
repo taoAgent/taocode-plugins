@@ -1,0 +1,18 @@
+{
+  "$schema": "https://taocode.io/schemas/plugin.schema.json",
+  "id": "tao-subnet-explorer",
+  "label": "TAO Subnet Explorer",
+  "version": "0.1.0",
+  "summary": "Read-only tools for exploring Bittensor subnets from within TaoCode.",
+  "publisher": { "name": "taoAgent", "url": "https://taocode.io" },
+  "license": "MIT",
+  "keywords": ["bittensor", "subnet", "metagraph", "taostats"],
+  "provides": {
+    "skills": ["skills/subnet-metagraph", "skills/stake-report"],
+    "mcp": "mcp.json"
+  },
+  "permissions": {
+    "network": ["https://api.taostats.io", "https://mcp.taostats.io"],
+    "filesystem": "read"
+  }
+}
